@@ -224,6 +224,7 @@ class ClusterManager<T extends ClusterItem> {
           },
           icon: await _getBasicClusterBitmap(cluster.isMultiple ? 125 : 75,
               text: cluster.isMultiple ? cluster.count.toString() : null),
+          zIndex: 2.0
         );
       };
 
